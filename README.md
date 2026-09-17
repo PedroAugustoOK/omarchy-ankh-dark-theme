@@ -15,11 +15,23 @@ omarchy theme install https://github.com/PedroAugustoOK/omarchy-ankh-dark-theme
 omarchy theme set ankh-dark
 ```
 
-Os wallpapers noturnos ficam em `backgrounds/`. O Omarchy gera os temas de
-terminal, Neovim, Helix, VS Code, btop e Chromium a partir de `colors.toml`.
+Os três wallpapers noturnos ficam em `backgrounds/`. São as mesmas três
+fotografias reais do tema claro, com uma graduação azul-carvão mais escura.
+O Omarchy gera os temas de terminal, Neovim, Helix, VS Code, btop e Chromium a
+partir de `colors.toml`.
 
-Night wallpapers live in `backgrounds/`. Omarchy generates terminal, Neovim,
-Helix, VS Code, btop, and Chromium themes from `colors.toml`.
+The three night wallpapers live in `backgrounds/`. They use the same real
+photographs as the light theme with a deeper blue-charcoal grade. Omarchy
+generates terminal, Neovim, Helix, VS Code, btop, and Chromium themes from
+`colors.toml`.
+
+- `01-ankh-study.png`: desk by a window.
+- `02-ankh-mountain.png`: softly lit mountain.
+- `03-ankh-lake.png`: misty lake and conifers.
+
+`preview.png` and `preview-unlock.png` are real captures from Omarchy, not
+generated interface mockups. Photo credits are in
+[ATTRIBUTIONS.md](ATTRIBUTIONS.md).
 
 ## Paleta / Palette
 
