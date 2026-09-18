@@ -1,0 +1,36 @@
+/**
+ * @name Omarchy Ankh Dark
+ * @description Calm blue-charcoal palette for Vencord/Discord.
+ */
+
+:root {
+    --ankh-bg: #101923;
+    --ankh-surface: #182535;
+    --ankh-border: #223244;
+    --ankh-text: #E8EEF2;
+    --ankh-muted: #8A9AAA;
+    --ankh-accent: #84A9C7;
+    --ankh-success: #8CAF9A;
+    --ankh-danger: #D4878F;
+}
+
+.theme-light, .theme-dark, .theme-darker, .theme-midnight, .visual-refresh {
+    --background-primary: var(--ankh-bg) !important;
+    --background-secondary: var(--ankh-surface) !important;
+    --background-secondary-alt: var(--ankh-surface) !important;
+    --background-tertiary: var(--ankh-border) !important;
+    --background-floating: var(--ankh-surface) !important;
+    --background-modifier-hover: color-mix(in srgb, var(--ankh-accent) 10%, var(--ankh-bg)) !important;
+    --background-modifier-selected: color-mix(in srgb, var(--ankh-accent) 16%, var(--ankh-bg)) !important;
+    --channeltextarea-background: var(--ankh-surface) !important;
+    --text-normal: var(--ankh-text) !important;
+    --text-muted: var(--ankh-muted) !important;
+    --channels-default: var(--ankh-muted) !important;
+    --interactive-normal: var(--ankh-text) !important;
+    --interactive-hover: var(--ankh-accent) !important;
+    --interactive-active: var(--ankh-accent) !important;
+    --brand-500: var(--ankh-accent) !important;
+    --control-brand-foreground: var(--ankh-accent) !important;
+    --status-positive: var(--ankh-success) !important;
+    --status-danger: var(--ankh-danger) !important;
+}

@@ -17,11 +17,11 @@ omarchy theme set ankh-dark
 
 Os três wallpapers noturnos ficam em `backgrounds/` e foram fornecidos para a
 identidade visual do Ankh Dark. O Omarchy gera os temas de terminal, Neovim,
-Helix, VS Code, btop e Chromium a partir de `colors.toml`.
+Helix e VS Code a partir de `colors.toml`.
 
 The three night wallpapers live in `backgrounds/` and were supplied for the
-Ankh Dark visual identity. Omarchy generates terminal, Neovim, Helix, VS Code,
-btop, and Chromium themes from `colors.toml`.
+Ankh Dark visual identity. Omarchy generates terminal, Neovim, Helix, and VS
+Code themes from `colors.toml`.
 
 - `01-ankh-study.png`: desk by a window.
 - `02-ankh-meadow.png`: study opening onto a meadow and distant village.
@@ -30,6 +30,10 @@ btop, and Chromium themes from `colors.toml`.
 `preview.png` and `preview-unlock.png` are real captures from Omarchy, not
 generated interface mockups. Asset notes are in
 [ATTRIBUTIONS.md](ATTRIBUTIONS.md).
+
+The companion now has the same application coverage as the light theme:
+Quickshell, GTK, Walker, Waybar, Mako, SwayOSD, Superfile, Zed, btop, Chromium,
+Cava, fzf, Steam, and Vencord.
 
 ## Paleta / Palette
 
