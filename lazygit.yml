@@ -1,0 +1,26 @@
+# Ankh Dark companion configuration for Lazygit.
+# Merge the gui.theme block into ~/.config/lazygit/config.yml.
+gui:
+  theme:
+    activeBorderColor:
+      - '#84A9C7'
+      - bold
+    inactiveBorderColor:
+      - '#8A9AAA'
+    searchingActiveBorderColor:
+      - '#86B4BF'
+      - bold
+    optionsTextColor:
+      - '#84A9C7'
+    selectedLineBgColor:
+      - '#263D53'
+    selectedRangeBgColor:
+      - '#223244'
+    cherryPickedCommitBgColor:
+      - '#223244'
+    cherryPickedCommitFgColor:
+      - '#E8EEF2'
+    unstagedChangesColor:
+      - '#D4878F'
+    defaultFgColor:
+      - '#E8EEF2'

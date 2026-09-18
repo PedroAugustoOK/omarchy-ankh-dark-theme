@@ -1,0 +1,46 @@
+# Ankh Dark companion palette for Yazi.
+# Merge into ~/.config/yazi/theme.toml; it deliberately avoids layout settings.
+
+[manager]
+cwd = { fg = "#84A9C7" }
+hovered = { fg = "#101923", bg = "#84A9C7" }
+preview_hovered = { underline = true }
+find_keyword = { fg = "#D2AD68", italic = true }
+find_position = { fg = "#B09ABF", bg = "reset", italic = true }
+marker_selected = { fg = "#8CAF9A", bg = "#8CAF9A" }
+marker_copied = { fg = "#86B4BF", bg = "#86B4BF" }
+marker_cut = { fg = "#D4878F", bg = "#D4878F" }
+tab_active = { fg = "#E8EEF2", bg = "#182535" }
+tab_inactive = { fg = "#8A9AAA", bg = "#101923" }
+border_symbol = "│"
+border_style = { fg = "#223244" }
+
+[status]
+separator_open = ""
+separator_close = ""
+separator_style = { fg = "#182535", bg = "#182535" }
+mode_normal = { fg = "#101923", bg = "#84A9C7", bold = true }
+mode_select = { fg = "#101923", bg = "#8CAF9A", bold = true }
+mode_unset = { fg = "#101923", bg = "#D2AD68", bold = true }
+progress_label = { fg = "#E8EEF2", bold = true }
+progress_normal = { fg = "#84A9C7", bg = "#223244" }
+progress_error = { fg = "#D4878F", bg = "#223244" }
+
+[input]
+border = { fg = "#84A9C7" }
+title = { fg = "#E8EEF2" }
+value = { fg = "#E8EEF2" }
+selected = { reversed = true }
+
+[select]
+border = { fg = "#84A9C7" }
+active = { fg = "#101923", bg = "#84A9C7" }
+inactive = { fg = "#E8EEF2" }
+
+[which]
+mask = { bg = "#101923" }
+cand = { fg = "#84A9C7" }
+rest = { fg = "#8A9AAA" }
+desc = { fg = "#E8EEF2" }
+separator = "  "
+separator_style = { fg = "#8A9AAA" }

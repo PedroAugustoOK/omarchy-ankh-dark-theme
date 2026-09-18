@@ -1,47 +1,63 @@
 # Omarchy Ankh Dark
 
-Companion noturno do [Omarchy Ankh](https://github.com/PedroAugustoOK/omarchy-ankh-theme):
-azul-marinho profundo, azul ardósia, marfim e acentos quentes dessaturados.
+Companheiro noturno do [Omarchy Ankh](https://github.com/PedroAugustoOK/omarchy-ankh-theme).
+Azul-marinho profundo, texto marfim frio e azul ardósia criam uma sessão de
+foco serena; os três wallpapers fornecidos preservam a mesma identidade Ankh.
 
-The dark companion to Omarchy Ankh: deep blue-charcoal surfaces, slate blue,
-warm ivory text, and restrained gold and sage accents.
+![Desktop Ankh Dark — captura real do Omarchy](preview.png)
 
-![Prévia do Omarchy Ankh Dark](preview.png)
+![Lockscreen Ankh Dark — captura real do Omarchy](preview-unlock.png)
 
-## Instalação / Installation
+## Instalação
 
 ```bash
 omarchy theme install https://github.com/PedroAugustoOK/omarchy-ankh-dark-theme
 omarchy theme set ankh-dark
 ```
 
-Os três wallpapers noturnos ficam em `backgrounds/` e foram fornecidos para a
-identidade visual do Ankh Dark. O Omarchy gera os temas de terminal, Neovim,
-Helix e VS Code a partir de `colors.toml`.
+Alterne entre os três wallpapers com `omarchy theme bg next`.
 
-The three night wallpapers live in `backgrounds/` and were supplied for the
-Ankh Dark visual identity. Omarchy generates terminal, Neovim, Helix, and VS
-Code themes from `colors.toml`.
+## O que está incluído
 
-- `01-ankh-study.png`: desk by a window.
-- `02-ankh-meadow.png`: study opening onto a meadow and distant village.
-- `03-ankh-window.png`: bright desk by a window.
+- Paleta `colors.toml` com contraste mínimo de 7:1 para texto principal.
+- `shell.toml` completo para barra, controles, menus, launcher, notificações,
+  polkit, lockscreen e seletor de imagens do Quickshell.
+- Ícones `Yaru-blue`, que conectam visualmente as duas variantes.
+- Integrações com GTK, Walker, Waybar, Mako, SwayOSD, Superfile, Zed, btop,
+  Chromium, Cava, fzf, Steam e Vencord.
+- Complementos opcionais para bat, Lazygit, Fastfetch, Yazi e git-delta em
+  [INTEGRATIONS.md](INTEGRATIONS.md).
 
-`preview.png` and `preview-unlock.png` are real captures from Omarchy, not
-generated interface mockups. Asset notes are in
-[ATTRIBUTIONS.md](ATTRIBUTIONS.md).
+O Omarchy gera automaticamente terminal, Neovim, Helix, VS Code e Obsidian a
+partir de `colors.toml`. Os arquivos opcionais não são copiados sobre suas
+preferências existentes.
 
-The companion now has the same application coverage as the light theme:
-Quickshell, GTK, Walker, Waybar, Mako, SwayOSD, Superfile, Zed, btop, Chromium,
-Cava, fzf, Steam, and Vencord.
+## Wallpapers
 
-## Paleta / Palette
+Há exatamente três imagens PNG em 3840×2160 (16:9):
 
-- Fundo / background: azul-carvão `#101923`
-- Superfície / surface: azul-marinho `#182535`
-- Destaque / accent: azul ardósia claro `#84A9C7`
-- Texto / text: marfim frio `#E8EEF2`
+- `01-ankh-study.png` — mesa junto à janela, luz quente e vegetação.
+- `02-ankh-meadow.png` — estudo aberto para campo e vila distante.
+- `03-ankh-window.png` — mesa clara, caderno e laptop junto à janela.
 
-## Licença / License
+## Desenvolvimento
 
-MIT. Veja [LICENSE](LICENSE).
+Valide localmente com:
+
+```bash
+python3 scripts/validate-theme.py
+```
+
+O teste verifica paleta, contraste, formatos TOML/JSON, referências de cores,
+assets obrigatórios, previews reais e as três imagens em alta resolução.
+Leia [CONTRIBUTING.md](CONTRIBUTING.md) antes de alterar assets e consulte
+[CHANGELOG.md](CHANGELOG.md) para as versões.
+
+Notas de origem dos assets: [ATTRIBUTIONS.md](ATTRIBUTIONS.md).
+
+Para a variante clara, veja
+[Omarchy Ankh](https://github.com/PedroAugustoOK/omarchy-ankh-theme).
+
+## Licença
+
+[MIT](LICENSE).
