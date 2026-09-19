@@ -1,0 +1,38 @@
+{
+  "$schema": "vscode://schemas/color-theme",
+  "name": "Omarchy Ankh Dark",
+  "type": "dark",
+  "semanticHighlighting": true,
+  "semanticTokenColors": {
+    "parameter": "#86B4BF",
+    "property": "#86B4BF",
+    "variable": "#E8EEF2",
+    "function": "#84A9C7",
+    "method": "#84A9C7",
+    "class": "#D2AD68",
+    "interface": "#D2AD68",
+    "enum": "#D2AD68",
+    "type": "#D2AD68",
+    "typeParameter": "#D2AD68",
+    "string": "#8CAF9A",
+    "number": "#D79A7D",
+    "boolean": "#D79A7D",
+    "operator": "#86B4BF",
+    "keyword": "#84A9C7",
+    "macro": "#86B4BF",
+    "decorator": "#84A9C7",
+    "comment": {
+      "foreground": "#8A9AAA",
+      "fontStyle": "italic"
+    }
+  },
+  "colors": {
+    "editor.foreground": "#E8EEF2",
+    "editor.background": "#101923",
+    "editor.selectionBackground": "#263D5380",
+    "editorError.foreground": "#D4878F",
+    "editorWarning.foreground": "#D2AD68",
+    "editorInfo.foreground": "#84A9C7",
+    "focusBorder": "#84A9C7"
+  }
+}
