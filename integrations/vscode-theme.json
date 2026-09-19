@@ -7,20 +7,20 @@
     "parameter": "#86B4BF",
     "property": "#86B4BF",
     "variable": "#E8EEF2",
-    "function": "#84A9C7",
-    "method": "#84A9C7",
-    "class": "#D2AD68",
-    "interface": "#D2AD68",
-    "enum": "#D2AD68",
-    "type": "#D2AD68",
-    "typeParameter": "#D2AD68",
-    "string": "#8CAF9A",
+    "function": "#9BBFDC",
+    "method": "#9BBFDC",
+    "class": "#E0BD77",
+    "interface": "#E0BD77",
+    "enum": "#E0BD77",
+    "type": "#E0BD77",
+    "typeParameter": "#E0BD77",
+    "string": "#A2C2AE",
     "number": "#D79A7D",
     "boolean": "#D79A7D",
-    "operator": "#86B4BF",
-    "keyword": "#84A9C7",
-    "macro": "#86B4BF",
-    "decorator": "#84A9C7",
+    "operator": "#9ACBD3",
+    "keyword": "#D2AD68",
+    "macro": "#9ACBD3",
+    "decorator": "#9BBFDC",
     "comment": {
       "foreground": "#8A9AAA",
       "fontStyle": "italic"
@@ -43,7 +43,7 @@
         "constant.other.symbol"
       ],
       "settings": {
-        "foreground": "#8CAF9A"
+        "foreground": "#A2C2AE"
       }
     },
     {
@@ -64,7 +64,7 @@
         "storage.modifier"
       ],
       "settings": {
-        "foreground": "#84A9C7"
+        "foreground": "#D2AD68"
       }
     },
     {
@@ -74,7 +74,7 @@
         "meta.function-call"
       ],
       "settings": {
-        "foreground": "#84A9C7"
+        "foreground": "#9BBFDC"
       }
     },
     {
@@ -85,7 +85,7 @@
         "support.class"
       ],
       "settings": {
-        "foreground": "#D2AD68"
+        "foreground": "#E0BD77"
       }
     },
     {
@@ -95,7 +95,7 @@
         "punctuation.separator"
       ],
       "settings": {
-        "foreground": "#86B4BF"
+        "foreground": "#9ACBD3"
       }
     },
     {
@@ -114,7 +114,7 @@
         "entity.other.attribute-name"
       ],
       "settings": {
-        "foreground": "#84A9C7"
+        "foreground": "#9BBFDC"
       }
     },
     {
@@ -147,9 +147,9 @@
     "statusBar.foreground": "#101923",
     "titleBar.activeBackground": "#101923",
     "titleBar.activeForeground": "#E8EEF2",
-    "editorError.foreground": "#D4878F",
-    "editorWarning.foreground": "#D2AD68",
-    "editorInfo.foreground": "#84A9C7",
+    "editorError.foreground": "#E09AA1",
+    "editorWarning.foreground": "#E0BD77",
+    "editorInfo.foreground": "#9BBFDC",
     "focusBorder": "#84A9C7"
   }
 }
